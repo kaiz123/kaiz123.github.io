@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #232222;
+}
+
+body {
+  overflow-x: hidden;
+}
+/*section1*/
+
+#opening {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+}
+
+nav {
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  padding-right: 5%;
+  font-weight: bold;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 20px;
+  background-color: #4d8cf4;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: wheat;
+}
+
+.face {
+  position: absolute;
+  top: 100px;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+}
+
+.text-bold {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+  color: #4d8cf4;
+}
+
+.subtitle {
+  font-size: 24px;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  height: 200px;
+  width: 100vw;
+  background-color: #4d8cf4;
+  position: relative;
+}
+
+.main {
+  width:80%;
+  display: inline-block;
+  height: 100%;
+  padding: 20px;
+  margin-right: 10px;
+  position: absolute
+}
+
+.social-media {
+  width: 80px;
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+  left: 83%;
+  padding: 4% 20px 4% 20px;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.heading.title {
+    text-align: center;
+}
+
+.email-id a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email-id {
+  border-bottom: 1px solid #fff;
+  width: 60%;
+  margin: 20px;
+}
+
+.social-media-logo {
+  height: 40px;
+  width: 40px;
+  margin: 0px 0 20px 0;
+}
+
+.social-media-logo:hover {
+  opacity: 0.6;
+}
+
+/* content specific */
+.summary {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px;
+}
+
+.summary.work {
+  color: #232222;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  margin-bottom: 80px;
+
+}
+
+.education {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.hobbies {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+
+}
+
+.salutation {
+  font-size: 20px;
+  margin: 10px 20px 10px 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .circle3 {
+    height: 40vh;
+    width: 40vh;
+  }
+
+  .circle4 {
+    height: 15vh;
+    width: 15vh;
+    top: 20%;
+    left: 20%;
+  }
+
+  .text-bold {
+    font-size: 60px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .main {
+    margin-right: 10px;
+    position: absolute;
+    width: 100vw;
+    height:80%;
+  }
+
+  .social-media {
+    width: 100%;
+    display: inline-block;
+    height: 45px;
+    left: 0;
+    top: 72%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  .social-media-logo {
+    height: 30px;
+    width: 30px;
+    margin: 0 20px 0 20px;
+  }
+
+  .email-id {
+    margin: 0px 20px 20px 20px;
+  }
+
+  .main .heading {
+    margin-bottom: 0px;
+  }
+
+  .logos {
+    display: block;
+    height: 34px;
+    margin: auto 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .face {
+    left: 28%;
+  }
+
+  .image {
+    width: 100%;
+    height: 50%;
+    float: none;
+    padding-left: 30%;
+  }
+
+  .image {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .face {
+    left: 20%;
+  }
+
+  .circle1 {
+    height: 60vh;
+    width: 60vh;
+  }
+
+  .circle2 {
+    height: 35vh;
+    width: 35vh;
+  }
+
+  .circle3 {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .circle4 {
+    height: 10vh;
+    width: 10vh;
+    top: 20%;
+    left: 20%;
+  }
+
+  .text-bold {
+    font-size: 50px;
+  }
+
+  .email-id a {
+    font-size: 24px;
+  }
+
+  .summary {
+    font-size: 15px;
+  }
+
+  .salutation {
+    font-size: 18px;
+    margin: 5px 20px 5px 20px;
+  } 
+
+  .image-top {
+    left: 150px;
+    top: -100px;
+  }
+
+  .social-media-logo {
+    height: 30px;
+    width: 30px;
+    margin: 0 20px 0 20px;
+  }
+
+  .image-back,
+  .image-top.full-size {
+    width: 200px;
+    height: 150px;
+  }
+
+  .image {
+    padding-left: 20%;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .modal .heading {
+    font-size: 22px;
+  }
+
+  .subHeading {
+    font-size: 15px;
+  }
+
+  .modalText {
+    font-size: 12px;
+  }
+
+  .skillHighlight {
+    margin-top: 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .face {
+      left: 0px;
+      width: 100vw;
+  }
+
+  .image-back {
+    width: 200px;
+    height: 150px;
+  }
+
+  .image-top {
+    width: 80px;
+    height: 140px;
+    top: -80px;
+    left: 130px;
+  }
+
+  .image {
+    padding-top: 60px;
+    padding-left: 40px;
+  }
+
+  .email-id a {
+    font-size: 20px;
+  }
+}
